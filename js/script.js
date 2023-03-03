@@ -10,22 +10,22 @@
  // Perguntas
  const questions = [
    {
-     "question": "PHP foi desenvolvido para qual fim?",
+     "question": "Assina-le a alternativa correta quando se trata de componentes",
      "answers": [
        {
-         "answer": "back-end",
+         "answer": "Componentes podem ser reutilizados e reaproveitados em vários lugares",
          "correct": true
        },
        {
-         "answer": "front-end",
+         "answer": "front-ends com componentes não precisam de back-end",
          "correct": false
        },
        {
-         "answer": "Sistema operacional",
+         "answer": "Componentes são lentos e nada reaproveitáveis",
          "correct": false
        },
        {
-         "answer": "Banco de dados",
+         "answer": "Componentes ajudam a criar telas mais bonitas",
          "correct": false
        },
      ]
@@ -52,22 +52,22 @@
      ]
    },
    {
-     "question": "Qual o seletor de id no CSS?",
+     "question": "O que é a propriedade @input do Angular ?",
      "answers": [
        {
-         "answer": "#",
+         "answer": "É uma maneira de compartilhar dados do componente filho para o pai",
+         "correct": false
+       },
+       {
+         "answer": "É uma maneira de inserir dados do componente filho para o pai",
+         "correct": false
+       },
+       {
+         "answer": "É uma maneira de compartilhar dados do componente pai para o filho.",
          "correct": true
        },
        {
-         "answer": ".",
-         "correct": false
-       },
-       {
-         "answer": "@",
-         "correct": false
-       },
-       {
-         "answer": "/",
+         "answer": "É uma maneira de criar dados do componente pai para o filho",
          "correct": false
        },
      ]
@@ -163,6 +163,133 @@
       {
         "answer": "object.freeze()",
         "correct": true
+      },
+    ]
+  },
+
+   {
+    "question": `Quais são os eixos possíveis ao utilizar a propriedade flex-direction?`,
+    "answers": [
+      {
+        "answer": "Apenas row",
+        "correct": false
+      },
+      {
+        "answer": "Column e row",
+        "correct": true
+      },
+      {
+        "answer": "Não é possível modificar o eixo principal de um flex container",
+        "correct": false
+      },
+      {
+        "answer": "column e wrap",
+        "correct": false
+      },
+    ]
+  },
+
+     {
+    "question": `Qual o efeito de aplicar a seguinte propriedade e valor:  display: flex ?`,
+    "answers": [
+      {
+        "answer": "Definir crescimento de um container",
+        "correct": false
+      },
+      {
+        "answer": "Definir o eixo inicial do container",
+        "correct": false
+      },
+      {
+        "answer": "Inicializar a quebra de linha do container",
+        "correct": false
+      },
+      {
+        "answer": "Inicializar o flex container, principal elemento que irá possuir flex itens",
+        "correct": true
+      },
+    ]
+  },
+
+      {
+    "question": `Qual a propriedade que possibilita fazer o alinhamento individual de um flex item em relação ao eixo do flex container?`,
+    "answers": [
+      {
+        "answer": "align-content",
+        "correct": false
+      },
+      {
+        "answer": "align-self",
+        "correct": true
+      },
+      {
+        "answer": "justify-content",
+        "correct": false
+      },
+      {
+        "answer": "align-items",
+        "correct": false
+      },
+    ]
+  },
+
+  {
+    "question": `Qual é o valor que colocamos na propriedade margin para nos ajudar a alinhar elementos horizontalmente?`,
+    "answers": [
+      {
+        "answer": "center",
+        "correct": false
+      },
+      {
+        "answer": "Nenhuma das alternativas",
+        "correct": false
+      },
+      {
+        "answer": "100%",
+        "correct": false
+      },
+      {
+        "answer": "auto",
+        "correct": true
+      },
+    ]
+  },
+
+
+
+  
+  {
+    "question": `Dado o código abaixo:
+    <html>
+      <head>
+        <title>Documento</title>
+      </head>
+      <body>
+        <h1>Título principal</h1>
+    
+        <section id="sobre" class="full-screen">
+          <p>Texto de apresentação</p>
+        </section>
+      </body>
+    </html>
+    
+    Como poderia ser selecionado o elemento <h1>Título principal</h1>?\n`,
+    "answers": [
+      {
+        "answer": "document.getElementById(‘h1’)",
+        "correct": false
+      },
+      {
+        "answer": "document.getElementsByTagName(‘h1’)[0]",
+        "correct": true
+      },
+      {
+        "answer": "document.getElementsByClassName(‘h1’)[0]",
+        "correct": false
+      },
+      {
+        "answer": "document.getElementsByTagName(‘h1’)",
+        "correct": false
       },
     ]
   },
