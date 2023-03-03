@@ -81,7 +81,7 @@
         "correct": false
       },
       {
-        "answer": "O retorno: o método forEach retorna um array, enqaunto map retorna 'undefined'",
+        "answer": "O retorno: o método forEach retorna um array, enquanto map retorna 'undefined'",
         "correct": false
       },
       {
